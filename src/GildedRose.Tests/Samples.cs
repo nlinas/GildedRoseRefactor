@@ -20,7 +20,7 @@ namespace GildedRose.Tests
             }
         }
 
-        public static Item ValueIncreasesBeforeSellInItem
+        public static Item QualityIncreasesBeforeSellInItem
         {
             get
             {
@@ -28,11 +28,19 @@ namespace GildedRose.Tests
             }
         }
 
-        public static Item ValueIncreasesItem
+        public static Item QualityIncreasesWithAgeItem
         {
             get
             {
                 return new Item { Name = "Aged Brie", Quality = 1, SellIn = 1 };
+            }
+        }
+
+        public static Item ConjuredItem
+        {
+            get
+            {
+                return new Item { Name = "Conjured Mana Cake", Quality = 1, SellIn = 1 };
             }
         }
 
